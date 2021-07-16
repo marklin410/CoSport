@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/menu_events"
+            android:checkable="true"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_teams"
+            android:icon="@drawable/ic_menu_teams"
+            android:title="@string/menu_teams"
+            android:checkable="true"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_menu_places"
+            android:title="@string/menu_places"
+            android:checkable="true"
+            android:checked="true"/>
+
+
+    </group>
+    <item android:title="Submenu title">
+        <menu>
+            <item
+                android:id="@+id/navigation_submenu_1"
+                android:title="@string/menu_settings"
+                android:icon="@drawable/ic_menu_settings"/>
+
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_login"
+                android:title="@string/menu_login"
+                android:checkable="true"/>
+
+        </menu>
+    </item>
+</menu>

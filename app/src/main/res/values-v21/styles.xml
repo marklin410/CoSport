@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="background">@color/background</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorOnSurface</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemShapeFillColor">@drawable/shape_selector</item>
+
+        <item name="itemIconTint">@drawable/icon_tint_selector</item>
+
+        <item name="itemTextColor">@drawable/text_color_selector</item>
+    </style>
+
+
+
+
+</resources>
